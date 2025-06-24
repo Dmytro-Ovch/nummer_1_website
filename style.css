@@ -18,20 +18,17 @@ header {
   flex-direction: column;
   justify-content: center;
   color: #f3f0e0;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
 }
 
 .header h1 {
   font-family: "Yeseva One", sans-serif;
-  font-size: 2rem;
-  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
-  text-align: center;
-  padding: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
 }
 .header .slogan {
   font-family: "Dancing Script", cursive;
   font-size: 1rem;
-  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
-  text-align: center;
   padding: 1rem;
 }
 
@@ -43,6 +40,7 @@ header {
   align-items: center;
   list-style: none;
   padding: 0.5rem;
+  border-bottom: 3px solid #f3f0e3;
 }
 .navbar ul a {
   color: inherit;
