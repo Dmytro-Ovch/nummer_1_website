@@ -13,7 +13,10 @@ header {
   background-image: url(img/pexels-karl-knips-.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #f3f0e0;
 }
 
@@ -69,4 +72,14 @@ main.cards {
 
 .card:hover {
   background: #e0f0e0;
+}
+footer {
+  text-align: center;
+  background-color: #184f02;
+  color: #f3f0e0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
 }
