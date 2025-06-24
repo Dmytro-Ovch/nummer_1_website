@@ -3,34 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+html {
+  font-family: "Anaheim", sans-serif;
+  background-color: #f3f0e0;
+  color: #2c2c2c;
 }
 
 header {
-  background: url('wald.jpg') center/cover no-repeat;
-  color: white;
-  padding: 2rem;
-  text-align: center;
+  background-image: url(img/pexels-karl-knips-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  color: #f3f0e0;
 }
 
-nav {
-  background: #006400;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.header h1 {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 4rem;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
+  padding: 1rem;
+}
+.header .slogan {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
   padding: 1rem;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.navbar ul {
+  /* background-color: #4e342ecc; */
+  background: linear-gradient(#687e5f, #f3f0e0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
 }
-
+.navbar ul a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
 nav a:hover {
   text-decoration: underline;
 }
@@ -54,50 +69,4 @@ main.cards {
 
 .card:hover {
   background: #e0f0e0;
-}
-
-.detail-container {
-  padding: 2rem;
-}
-
-.details > div {
-  margin-bottom: 0.5rem;
-}
-
-.gallery-map {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.box {
-  flex: 1;
-  background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  min-height: 200px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.back-link {
-  margin-top: 2rem;
-}
-
-.back-link a {
-  color: #006400;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.back-link a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  background: #222;
-  color: #ccc;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
 }
