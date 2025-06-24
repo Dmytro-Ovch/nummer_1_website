@@ -13,22 +13,22 @@ header {
   background-image: url(img/pexels-karl-knips-.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #f3f0e0;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
 }
 
 .header h1 {
   font-family: "Yeseva One", sans-serif;
-  font-size: 4rem;
-  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
-  text-align: center;
-  padding: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
 }
 .header .slogan {
   font-family: "Dancing Script", cursive;
-  font-size: 2rem;
-  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
-  text-align: center;
+  font-size: 1rem;
   padding: 1rem;
 }
 
@@ -40,6 +40,7 @@ header {
   align-items: center;
   list-style: none;
   padding: 0.5rem;
+  border-bottom: 3px solid #f3f0e3;
 }
 .navbar ul a {
   color: inherit;
@@ -69,19 +70,29 @@ main.cards {
 
 #rund {
   background: #b1e5bc;
-  border-left: 6px solid #ec2a2a; 
+  border-left: 6px solid #ec2a2a;
 }
 
 #fern {
   background: #89c28f;
-  border-left: 6px solid #b7ff69; 
+  border-left: 6px solid #b7ff69;
 }
 
 #rad {
   background: #6d967d;
-  border-left: 6px solid #10a45d; 
+  border-left: 6px solid #10a45d;
 }
 
 .card:hover {
   background: #e0f0e0;
+}
+footer {
+  text-align: center;
+  background-color: #184f02;
+  color: #f3f0e0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
 }
