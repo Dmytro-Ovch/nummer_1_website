@@ -56,6 +56,21 @@ main.cards {
   background: #e0f0e0;
 }
 
+#rund {
+  background: #b1e5bc;
+  border-left: 6px solid #ec2a2a; 
+}
+
+#fern {
+  background: #89c28f;
+  border-left: 6px solid #b7ff69; 
+}
+
+#rad {
+  background: #6d967d;
+  border-left: 6px solid #10a45d; 
+}
+
 .detail-container {
   padding: 2rem;
 }
