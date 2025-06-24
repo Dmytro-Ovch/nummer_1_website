@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Anaheim", sans-serif;
+  background-color: #f3f0e0;
+  color: #2c2c2c;
+}
+
+header {
+  background-image: url(img/pexels-karl-knips-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  color: #f3f0e0;
+}
+
+.header h1 {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 4rem;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
+  padding: 1rem;
+}
+.header .slogan {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #0a0a0a, 0 0 10px #7ef5a6;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navbar ul {
+  /* background-color: #4e342ecc; */
+  background: linear-gradient(#687e5f, #f3f0e0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
+}
+.navbar ul a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
