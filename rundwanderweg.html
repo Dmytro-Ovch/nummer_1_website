@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Dancing+Script:wght@400..700&family=Yeseva+One&display=swap"
     rel="stylesheet">
-  <title>Streckendetails - Rundwanderweg</title>
   <link rel="stylesheet" href="style.css" />
+  <title>Streckendetails - Fernwanderweg</title>
 </head>
 
 <body>
   <header class="header">
 
-    <h1 class="title">Wandern im Thüringer Wald</h1>
+    <h1 class="title">Wandern in Thüringer Wald</h1>
     <p class="slogan">Pfad für Pfad – Freiheit im Grünen,im Herzen Deutschlands</p>
 
   </header>
+
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -27,7 +29,7 @@
       <li>
         <form class="search-form">
           <input type="text" placeholder="Suche..." />
-          <button type="submit">
+          <button type="#">
             suchen
           </button>
         </form>
@@ -35,25 +37,63 @@
     </ul>
 
   </nav>
-  <section class="detail-container">
-    <div class="details">
-      <div><strong>Name:</strong> Rennsteig</div>
-      <div><strong>Länge:</strong> 170 km</div>
-      <div><strong>Dauer:</strong> 8 Tage</div>
-      <div><strong>Schwierigkeit:</strong> Mittel</div>
+
+
+  <main class="info-section">
+    <div class="info-box">
+      <h3>Name</h3>
+      <p>Großer Inselsberg Runde </p>
+      <h3>Länge</h3>
+      <p>11,7 km</p>
+      <h3>Dauer</h3>
+      <p>ca. 4 Stunden</p>
+      <h3>Schwierigkeit</h3>
+      <p>Mittel</p>
+      <h3>Beschreibung</h3>
+      <p>Die Großer Inselsberg Runde ist eine beliebte, mittelschwere Rundtour im Thüringer Wald. Auf etwa 12 Kilometern
+        führt sie durch dichte Wälder, über felsige Pfade und bietet immer wieder beeindruckende Ausblicke vom Kamm des
+        Mittelgebirges.
+      </p>
+      <p>Der Höhepunkt der Tour ist der Große Inselsberg (916 m), einer der bekanntesten Gipfel Thüringens. Von dort hat
+        man bei gutem Wetter einen weiten Blick bis zum Harz oder zur Rhön. Die Strecke ist gut ausgeschildert und
+        verbindet sich stellenweise mit dem bekannten Rennsteig.</p>
+      <p>Ideal für geübte Wanderer, die eine abwechslungsreiche Tageswanderung suchen.</p>
     </div>
-    <div class="gallery-map">
-      <div class="box">Fotos Gallery</div>
-      <div class="box">Karte</div>
+
+    <div class="map">
+      <h3>Karte</h3>
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=10.415%2C50.548%2C11.415%2C50.848&layer=mapnik"
+        style="border: 2px solid #444;
+    width: 100%; 
+    height: 400px" allowfullscreen loading="lazy">
+      </iframe>
+      <br />
+      <small>
+        <a href="https://www.openstreetmap.org">Größere Karte anzeigen</a>
+      </small>
     </div>
-    <div class="back-link">
-      <a href="index.html">← Zurück zur Übersicht</a>
+  </main>
+
+  <section class="gallery">
+    <h2>Fotogallerie</h2>
+    <div class="gallery-images">
+      <img src="img/Inselsberg1.jpg" alt="Rennsteig" />
+      <img src="img/Inselsberg2.jpg" alt="Foto 2" />
+      <img src="img/Inselsberg3.jpg" alt="Foto 3" />
+      <img src="img/Inselsberg5.jpg" alt="Foto 4" />
+
     </div>
   </section>
+
+  <div class="back-link">
+    <a href="index.html">← Zurück zur Übersicht</a>
+  </div>
+
 
   <footer>
     <p>©2025 Wandern im Thüringer Wald</p>
   </footer>
+
 </body>
 
 </html>
