@@ -128,4 +128,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
+}
+@media (width <= 750px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar ul li {
+    padding: 1px;
+  }
 }
