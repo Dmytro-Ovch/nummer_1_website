@@ -37,6 +37,7 @@
 .gallery {
   padding: 2rem;
   border-top: 2px solid #aaa;
+  margin-bottom: 5rem;
 }
 
 .gallery h2 {
@@ -54,4 +55,8 @@
   height: 150px;
   object-fit: cover;
   border: 2px solid #444;
+}
+.gallery-images img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }

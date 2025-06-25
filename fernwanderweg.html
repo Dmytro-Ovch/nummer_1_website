@@ -8,17 +8,18 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Dancing+Script:wght@400..700&family=Yeseva+One&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fernwanderweg.css" />
   <title>Streckendetails - Fernwanderweg</title>
 </head>
 
 <body>
   <header class="header">
 
-    <h1 class="title">Wandern im Thüringer Wald</h1>
+    <h1 class="title">Wandern in Thüringer Wald</h1>
     <p class="slogan">Pfad für Pfad – Freiheit im Grünen,im Herzen Deutschlands</p>
 
   </header>
+
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -36,31 +37,62 @@
     </ul>
 
   </nav>
-  <section class="detail-container">
-    <div class="details">
-      <div><strong>Name:</strong> Rennsteig</div>
-      <div><strong>Länge:</strong> 170 km</div>
-      <div><strong>Dauer:</strong> 8 Tage</div>
-      <div><strong>Schwierigkeit:</strong> Mittel</div>
-    </div>
-    <div class="gallery-map">
-      <div class="box">Fotos Gallery</div>
-      <div class="box">Karte
-        <div class="map-description">
 
-          <img src="img/Rennsteig-Karte.jpg" alt="Karte des Rennsteigs" class="map-image" />
-        </div>
-      </div>
+
+  <main class="info-section">
+    <div class="info-box">
+      <h3>Name</h3>
+      <p>Rennsteig - Thüringer Wald</p>
+      <h3>Länge</h3>
+      <p>169,8 km</p>
+      <h3>Dauer</h3>
+      <p>40 Stunden</p>
+      <h3>Schwierigkeit</h3>
+      <p>Mittel</p>
+      <h3>Beschreibung</h3>
+      <p>Der Rennsteig im Thüringer Wald bietet uns viele historische und kulturelle Sehenswürdigkeiten. Er führt auf
+        169 km von Hörschel bei Eisenach bis nach Blankenstein im nördlichen Frankenwald.
+        Dabei erleben wir auf dem Kammweg die Naturschönheiten des Mittelgebirges. Der Rennsteig besteht bereits seit
+        dem Mittelalter und markierte damals die Grenze des Herzogtums Franken zur
+        Landgrafschaft Thüringen. Noch heute finden wir entlang des Rennsteiges historische Grenzsteine, mit denen der
+        Grenzweg seit dem 16. Jahrhundert markiert wurde. Auf dem Wanderweg, der vom
+        Deutschen Wanderverband mit dem Premiumsiegel „Wanderbares Deutschland“ ausgezeichnet wurde, erleben wir
+        traumhafte Blicke auf die Wartburg, unberührte Natur und steile Anstiege, zum Beispiel
+        auf den Beerberg, mit spektakulärer Aussicht.
+      </p>
+    </div>
+
+    <div class="map">
+      <h3>Karte</h3>
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=10.415%2C50.548%2C11.415%2C50.848&layer=mapnik"
+        style="border: 2px solid #444;
+    width: 100%; 
+    height: 400px" allowfullscreen loading="lazy">
+      </iframe>
 
     </div>
-    <div class="back-link">
-      <a href="index.html">← Zurück zur Übersicht</a>
+  </main>
+
+  <section class="gallery">
+    <h2>Fotogallerie</h2>
+    <div class="gallery-images">
+      <img src="img/Rennsteig1.jpg" alt="Rennsteig" />
+      <img src="img/Rennsteig-Karte.jpg" alt="Foto 2" />
+      <img src="img/Rennsteig2.jpg" alt="Foto 3" />
+      <img src="img/Rennsteig3.jpg" alt="Foto 4" />
+
     </div>
   </section>
+
+  <div class="back-link">
+    <a href="index.html">← Zurück zur Übersicht</a>
+  </div>
+
 
   <footer>
     <p>©2025 Wandern im Thüringer Wald</p>
   </footer>
+
 </body>
 
 </html>
