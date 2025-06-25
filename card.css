@@ -48,12 +48,15 @@ main {
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
+
 .cards .card:hover .face.face2 {
   transform: translateY(-25px);
 }
+
 .cards .card .face.face2 .content ul {
   list-style: none;
 }
+
 .cards .card .face.face2 .content a {
   display: inline-block;
   text-decoration: none;
@@ -63,4 +66,13 @@ main {
 .cards .card .face.face2 .content a:hover {
   background: #10a45d;
   color: #fff;
+}
+.cards .card .face.face2 .content .more {
+  justify-self: flex-end;
+}
+.cards .card .face.face2 .content .more a {
+  border: 2px solid #2c2c2c;
+}
+.cards .card:hover .face.face2 .content .more a {
+  border: 2px solid #10a45d;
 }
