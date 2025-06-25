@@ -7,9 +7,7 @@ main {
   justify-content: space-around;
   align-items: center;
 }
-.cards .card {
-  border-radius: 5px;
-}
+
 .cards .card .face {
   width: 300px;
   height: 200px;
@@ -18,14 +16,13 @@ main {
 .cards .card .face.face1 {
   position: relative;
   background-color: #b1e5bc;
-  /* transform: translateY(0px); */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  border-radius: 10px;
 }
 .cards .card .face.face1 h2 {
-  /* font-size: 1.5em; */
   text-align: center;
 }
 .cards .card .face.face1 p {
@@ -33,10 +30,6 @@ main {
   padding: 1em;
 }
 
-.cards .card:hover .face.face2 {
-  background-color: #b1e5bc;
-  transform: rotateY(0);
-}
 .cards .card .face.face2 {
   position: relative;
   background-color: #b1e5bc;
@@ -47,12 +40,16 @@ main {
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .cards .card:hover .face.face2 {
-  transform: translateY(-25px);
+  transform: translateY(-35px);
 }
-
+.cards .card .face.face2 .content {
+  width: 100%;
+  /* border: 1px solid #2c2c2c; */
+}
 .cards .card .face.face2 .content ul {
   list-style: none;
 }
